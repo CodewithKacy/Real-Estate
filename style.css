@@ -1,0 +1,632 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+   
+    margin: 5px;
+}
+.list{
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-family:  'Arial Narrow Bold';
+    
+}
+
+.nav{
+   background-color: whitesmoke;
+   opacity: 0.6;
+   margin: 10px;
+   border-radius: 10px;
+}
+
+.logo{
+    margin-right: auto;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.float a{
+    text-decoration: none;
+    font-size: 1em;
+        font-family: sans-serif;
+        font-weight: bold;
+     color: black;  
+}
+.float:hover{
+    cursor: pointer;
+    background-color: wheat;
+    transition: background-color 0.3s, transform 0.3s;
+   
+    border-radius: 10px;
+}
+.float:hover {
+    background-color: wheat;
+    transform: scale(1.05);
+    font-size: 1.2em;
+}
+.float:focus {
+    outline: none;
+}
+
+.image{
+  background-image: url("image/view.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+ } 
+ 
+
+
+
+
+.estate-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 51.5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.estate-wrapper h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.estate-wrapper p{
+    font-family: serif;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 30px;
+    background-color:whitesmoke;
+   font-family: serif;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   margin-top: 400px;
+   margin-left: 200px;
+   margin-right: 200px;
+}
+.search-bar label {
+    font-weight: bold;
+    margin-right: 5px;
+    color: #333;
+}
+.search-bar select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: border-color 0.3s;
+}
+.search-bar select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+.search-bar button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.search-bar button:hover {
+    background-color: red;
+    transform: scale(1.05);
+}
+.search-bar button:focus {
+    outline: none;
+}
+
+
+
+
+main {
+    padding: 20px;
+}
+
+.newest-deals {
+    text-align: center;
+}
+
+.deals-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.deal {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    text-align: left;
+    border-radius: 20px;
+}
+
+.deal img {
+    max-width: 100%;
+    height:40vh;
+    border-radius: 10px;
+}
+
+.deal h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.deal p {
+    margin: 5px 0;
+    font-family: serif;
+    font-weight: lighter;
+    font-size: 1.1em;
+}
+
+.newest-deals h2{
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+}
+.deal{
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+  .buy-now-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .deal:hover .buy-now-button {
+    opacity: 1;
+  }
+
+  .starter-packs{
+    text-align: center;
+  }
+.starter-packs h2{
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+}
+  
+ .content{
+   
+    height: auto;
+    display: flex;
+    border-radius: 10px;
+    
+    
+ }
+
+
+.div{
+   
+    width: 60%;
+    margin-left: auto;
+}
+
+.left{
+    
+    width: 45%;
+    margin-top: 100px;
+    padding-left: 95px;
+}
+.left h2{
+    font-family: Georgia;
+    font-size: 35px;
+}
+
+.left dt{
+    font-family: sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.left dd{
+    font-family: serif;
+    font-weight: lighter;
+    font-size: 1.1em;
+}
+
+.left button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 60px 70px 40px 140px;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    
+}
+.left button:hover {
+    background-color: red;
+    transform: scale(1.05);
+    font-size: 1.2em;
+}
+.left button:focus {
+    outline: none;
+    font-size: 1.1em;
+}
+
+
+
+.space{
+    width: 100%;
+    height: 100%;
+    border-radius: 60px 70px 40px 180px;
+    
+   
+}
+
+.box{
+   
+    height: auto;
+}
+.box h3{
+    font-family: Georgia;
+    padding: 10px;
+    margin: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.box p{
+    font-family: serif;
+    font-weight: lighter;
+    padding-left: 10px;
+    font-size: 1.1em;
+}
+
+.box button{
+
+padding: 10px 20px;
+    border: none;
+    border-radius: 60px 70px 40px 140px;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+   
+    margin: 20px;
+    
+}
+.box button:hover {
+    background-color: red;
+    transform: scale(1.05);
+    font-size: 1.2em;
+}
+.box button:focus {
+    outline: none;
+    font-size: 1.1em;
+}
+
+
+.flex {
+    display: inline-block;
+
+}
+
+ .right{
+    float: right;
+ }
+
+ 
+ .roof{
+    width: 100%;
+    height: 100vh;
+    border-radius: 75px 90px 35px 300px;
+ }
+
+ 
+
+ .box3{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .box3 span{
+    padding-right: 20px;
+ }
+ 
+.lady{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+margin-right: 10px;
+
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-name{
+    font-weight: bold;
+}
+
+.point{
+   
+    display: flex;
+    align-items: center;
+}
+
+
+
+.point img{
+    width: 40%;
+    border-radius: 30px 80px;
+}
+.point p{
+    padding-left: 10px;
+}
+
+.point1{
+    font-family: serif;
+    font-weight: lighter;
+    font-size: 1.1em;
+}
+
+.point2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+.company{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 10%;
+   background-color: #ddd;
+    position: relative;
+    display: inline-block;
+    height: 15vh;
+    padding: 10px;
+    border-radius:10px ;
+    text-align: center;
+    border-radius: 20px 60px;
+    align-content: center;
+}
+
+.company-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    overflow-x: auto;
+ }  
+    
+.con{
+   
+    display: flex;
+    align-items: center;
+   margin-left: 25%;
+   margin-right: 25%;
+   height: 40vh;
+ background: hsla(186, 33%, 94%, 1);
+ opacity: 0.8;
+ border-radius: 60px 70px 40px 140px;
+}
+
+.text{
+    
+    width: 70%;
+    height: 30vh;
+    text-align: center;
+    align-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.text2{
+    
+    width: 60%;
+    font-family: serif;
+    font-size: 1.1em;
+    font-weight: lighter;
+    padding-left: 10px;
+    margin-top: 35px;
+}
+
+.text2 button{
+
+    padding: 10px 20px;
+        border: none;
+        border-radius: 60px 70px 40px 140px;
+        background-color: red;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s;
+       
+        margin: 20px;
+        
+    }
+    .text2 button:hover {
+        background-color: red;
+        transform: scale(1.05);
+        font-size: 1em;
+    }
+    .text2 button:focus {
+        outline: none;
+        font-size: 1.1em;
+    }
+
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socials{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.socials a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socials a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+
+.socials a:hover {
+     background-color: #111;
+     transition: 0.5s;
+}
+
+.socials a:hover i{
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+.footerbottom{
+
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerbottom p {
+    color: aliceblue;
+}
+
+
+/*hambuger menu*/
+
+/* HAMBURGER MENU */
+#hamburger{
+    display: none;
+}
+.hamburger-nav {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .hamburger-menu {
+    position: relative;
+    display: inline-block; 
+   
+   padding-right: 50px;
+   display: flex;
+  }
+  
+  .hamburger-icon {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+    
+  }
+  
+  .hamburger-icon span {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3 ease-in-out;
+  }
+  
+  .menu-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
+  }
+  
+  .menu-links a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+  }
+  
+  .menu-links li {
+    list-style: none;
+  }
+  
+  .menu-links.open {
+    max-height: 300px;
+  }
+  
+  .hamburger-icon.open span:first-child {
+    transform: rotate(45deg) translate(10px, 5px);
+  }
+  
+  .hamburger-icon.open span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger-icon.open span:last-child {
+    transform: rotate(-45deg) translate(10px, -5px);
+  }
+  
+  .hamburger-icon span:first-child {
+    transform: none;
+  }
+  
+  .hamburger-icon span:first-child {
+    opacity: 1;
+  }
+  
+  .hamburger-icon span:first-child {
+    transform: none;
+  }

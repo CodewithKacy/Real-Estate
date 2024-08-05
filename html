@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Search Bar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            padding: 20px 30px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .search-bar label {
+            font-weight: bold;
+            margin-right: 5px;
+            color: #333;
+        }
+        .search-bar select {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            transition: border-color 0.3s;
+        }
+        .search-bar select:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+        .search-bar button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .search-bar button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+        .search-bar button:focus {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-bar">
+        <label for="location">Location:</label>
+        <select id="location" name="location">
+            <option value="canada">Canada</option>
+            <option value="germany">Germany</option>
+            <option value="california">California</option>
+            <option value="poland">Poland</option>
+        </select>
+
+        <label for="property">Property Type:</label>
+        <select id="property" name="property">
+            <option value="house">House</option>
+            <option value="ranch">Ranch</option>
+            <option value="beach-house">Beach House</option>
+            <option value="apartments">Apartments</option>
+        </select> 
+
+        <label for="range">Range:</label>
+        <select id="range" name="range">
+            <option value="numbers">25,000</option>
+            <option value="numbers">35,000</option>
+            <option value="numbers">45,000</option>
+            <option value="numbers">65,000</option>
+        </select> 
+
+        <button>Search Now</button>
+    </div>
+</body>
+</html>

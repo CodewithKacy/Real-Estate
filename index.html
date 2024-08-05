@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+   
+  <body>
+    <section>
+    <div class="container">
+     <div class="image" >
+        <div class="estate-wrapper">
+        <h2 class="estate">REAL ESTATE AGENT NEAR YOU</h2>
+        <p class="estate">In seller agency,the agent represents the seller in a real estatebtransaction. while in buyer agency, the agent represents the buyer</p>
+        </div>
+     
+       
+         <div class="nav">
+          <nav id="desktop-nav">
+            <ul class="nav-bar" >
+            <li class="list logo">TRIVIA</li>
+           <li class="list float"><a href="#">Home</a></li>
+           <li class="list float"><a href="#">About</a></li>
+           <li class="list float"><a href="#">Team</a> </li>
+           <li class="list float"><a href="#">Contact</a></li>
+           <li class="list float"><a href="#">Blog</a></li>
+            </ul>
+           </nav>
+          
+           <nav id="hamburger" class="hamburger-nav">
+            <div class="logo">TRIVIA</div>
+            <div class="hamburger-menu">
+              <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">About</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Team</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <li><a href="#blog" onclick="toggleMenu()">Blog</a></li>
+              </div>
+            </div>
+          </nav>
+           
+           
+         </div >     
+   <div class="search-bar">
+    <label for="size">Location:</label>
+    <select id="location" name="location">
+      <option value="canada">Canada</option>
+      <option value="germany">Germany</option>
+      <option value="california">California</option>
+      <option value="poland">Poland</option>
+    </select>
+
+    <label for="size">Property Type:</label>
+    <select id="property" name="property">
+      <option value="house">House</option>
+      <option value="ranch">Ranch</option>
+      <option value="beach-house">Beach House</option>
+      <option value="apartments">Apartments</option>
+    </select> 
+
+    <label for="size">Range:</label>
+    <select id="range" name="range">
+      <option value="numbers">$250,000</option>
+      <option value="numbers">$350,000</option>
+      <option value="numbers">$10,000,000</option>
+      <option value="numbers">$20,000,000</option>
+    </select> 
+
+
+<button>Search Now</button>
+</div>    
+</div>
+</div>
+</section>
+<br>
+<main>
+  <section class="newest-deals">
+      <h2>Newest Deals</h2>
+      <br>
+      <div class="deals-container">
+          <div class="deal">
+              <img src="image/new 1.jpg" alt="Sui House">
+              <h3>Sui House</h3>
+              <p>45 Riverside Rd, Newtown</p>
+              <p>3 Bedroom | 2 Bathroom | Sq. Feet: 2,965</p>
+              <p>$25,069,000</p>
+              <button class="buy-now-button">Buy Now</button>
+          </div>
+          <div class="deal">
+              <img src="image/new 2.jpg" alt="Tamara Villa">
+              <h3>Tamara Villa</h3>
+              <p>45 Riverside Rd, Newtown</p>
+              <p>3 Bedroom | 2 Bathroom | Sq. Feet: 2,965</p>
+              <p>$18,000,000</p>
+              <button class="buy-now-button">Buy Now</button>
+          </div>
+          <div class="deal">
+              <img src="image/new 3.jpg" alt="Mecaw House">
+              <h3>Mecaw House</h3>
+              <p>45 Riverside Rd, Newtown</p>
+              <p>4 Bedroom | 3 Bathroom | Sq. Feet: 2,965</p>
+              <p>$10,000,000</p>
+              <button class="buy-now-button">Buy Now</button>
+          </div>
+          <div class="deal">
+              <img src="image/new 4.jpg" alt="Bern">
+              <h3>Bern</h3>
+              <p>45 Riverside Rd, Newtown</p>
+              <p>2 Bedroom | 2 Bathroom | Sq. Feet: 2,965</p>
+              <p>$10,000,000</p>
+              <button class="buy-now-button">Buy Now</button>
+          </div>
+          <div class="deal">
+            <img src="image/new 5.jpg" alt="Mecaw House">
+            <h3>Mecaw House</h3>
+            <p>45 Riverside Rd, Newtown</p>
+            <p>4 Bedroom | 3 Bathroom | Sq. Feet: 2,965</p>
+            <p>$10,000,000</p>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+        <div class="deal">
+          <img src="image/new 6.jpg" alt="Mecaw House">
+          <h3>Mecaw House</h3>
+          <p>45 Riverside Rd, Newtown</p>
+          <p>4 Bedroom | 3 Bathroom | Sq. Feet: 2,965</p>
+          <p>$10,000,000</p>
+          <button class="buy-now-button">Buy Now</button>
+      </div>
+      </div>
+  </section>
+
+  <br>
+  <section class="starter-packs">
+    <h2>Starter Deals</h2>
+    <br>
+    
+    <div class="deals-container">
+        <div class="deal">
+            <img src="image/h 1.jpg" alt="Sui House">
+            <h3>Sui House</h3>
+            <p>45 Riverside Rd, Newtown</p>
+            <p>3 Bedroom | 2 Bathroom | Sq. Feet: 2,965</p>
+            <p>$25,069,000</p>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+        <div class="deal">
+            <img src="image/h 2.jpg" alt="Tamara Villa">
+            <h3>Tamara Villa</h3>
+            <p>45 Riverside Rd, Newtown</p>
+            <p>3 Bedroom | 2 Bathroom | Sq. Feet: 2,965</p>
+            <p>$18,000,000</p>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+        <div class="deal">
+            <img src="image/h 3.jpg" alt="Mecaw House">
+            <h3>Mecaw House</h3>
+            <p>45 Riverside Rd, Newtown</p>
+            <p>4 Bedroom | 3 Bathroom | Sq. Feet: 2,965</p>
+            <p>$10,000,000</p>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+        <div class="deal">
+            <img src="image/h 4.jpg" alt="Bern">
+            <h3>Bern</h3>
+            <p>45 Riverside Rd, Newtown</p>
+            <p>2 Bedroom | 2 Bathroom | Sq. Feet: 2,965</p>
+            <p>$10,000,000</p>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+        <div class="deal">
+          <img src="image/h 5.jpg" alt="Mecaw House">
+          <h3>Mecaw House</h3>
+          <p>45 Riverside Rd, Newtown</p>
+          <p>4 Bedroom | 3 Bathroom | Sq. Feet: 2,965</p>
+          <p>$10,000,000</p>
+          <button class="buy-now-button">Buy Now</button>
+      </div>
+      <div class="deal">
+        <img src="image/h 6.jpg" alt="Mecaw House">
+        <h3>Mecaw House</h3>
+        <p>45 Riverside Rd, Newtown</p>
+        <p>4 Bedroom | 3 Bathroom | Sq. Feet: 2,965</p>
+        <p>$10,000,000</p>
+        <button class="buy-now-button">Buy Now</button>
+    </div>
+    </div>
+</section>
+<br>
+<br>
+<br>
+<section>
+  <div class="content">
+    <div class="left">
+    <h2>Stop Renting, Start Owning</h2>
+    <br>
+    <br>
+    <dl>
+      <dt>ZeroDown buys your home</dt>
+      <dd>Choose any home on the market. we'll make an all cash offer on your behalf</dd>
+      <br>
+      <br>
+      <br>
+      
+      <dt>Build towards ownership</dt>
+      <dd>A portion of your payment goes towards building ownership in your home</dd>
+      <br>
+      <br>
+      <br>
+      
+      <dt>You control when you buy</dt>
+      <dd>put the purchase that you've built up towards buying your home</dd>
+    </dl> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <button>Learn more</button>
+  </div>
+    <div class="div">
+      <img class="space" src="image/div.jpg">
+    </div>
+ 
+</div>
+</section>
+<br>
+<br>
+<br>
+<section>
+ 
+  <div class="box">
+ <h3 class="flex">Our News & Blog</h3>
+ <button class="flex right">See All</button>
+ <br>
+ <br>
+ <br>
+<div class="box2">
+<img class="roof" src="image/residence.jpg">
+<div class="box3">
+<img class="lady" src="image/lady.jpg"> 
+
+ <div class="profile-info">
+<span class="profile-name">Jasmine</span>
+ 
+
+ 
+ <span class="profile date">published: 2 days ago</span>
+</div>
+</div>
+
+
+<h3 >The Sky-High Water Tower Doubles as a rustic....</h3>
+<p >In the 1980s this huntington beach water tower - which stands at around 100 feet tall serviced the local trains that came through town, connecting the inner city to yhe beach. Today it's a 3,5oo square foot high rise with unmatched views of the pacific ocean.</p>
+
+<button>Read now</button>
+
+</div>
+  </div>
+</section>
+<br>
+<br>
+<br>
+<section>
+  <div>
+  <div class="point">
+    <img src="image/shook.jpg">
+  
+  <div class="box5">
+    <p class="point1">The best way to showcase the new addition to any software is to get the digital art world's best and brightest to get the grips with your software.</p>
+  <br>
+  <br>
+    <p class="point2">Jerom Taylor</p>
+</div>
+</div>
+<br>
+<br>
+<br>
+</div>
+<div class="company-container">
+<div class="company">Paypal</div>
+<div class="company">Facebook</div>
+<div class="company">Airbnb</div>
+<div class="company">Instagram</div>
+<div class="company">Tiktok</div>
+<div class="company">Telegram</div>
+</div>
+<br>
+<br>
+<br>
+<div class="con">
+  <div class="text">
+<h4>Intrested To Know Anything Else</h4>
+  </div>
+  <div class="text2">
+    We will get back to you within one or two days through email. Also please don't forget to check your spam account just incase!
+  <br>
+  <br>
+    <button>Lets Talk Now</button>
+  </div>
+</div>
+</section>
+</main>
+
+<section>
+  <footer>
+    <div class="footercontainer">
+      <div class="socials">
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-whatsapp"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>
+      <a href="#"><i class="bi bi-threads"></i></a>
+      <a href="#"><i class="bi bi-youtube"></i></a>
+    </div>
+</div>
+
+<div class="footerbottom">
+<p> &copy;2024 All Rights Reserved</p>
+</div>
+  </footer>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
